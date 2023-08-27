@@ -3,7 +3,7 @@
 https://hyperskill.org/projects/189?track=12
 
 
-Using SpringBoot created a REST service that helps with managing theatres.
+Using Springboot created a REST service that helps with managing theatres.
 Handle HTTP requests in controllers, create services and respond with JSON objects.
 
 
