@@ -1,7 +1,7 @@
 # Cinema-room-REST-service
 
 https://hyperskill.org/projects/189?track=12
-Hypersill project
+
 
 Using SpringBoot created a REST service that helps with managing theatres.
 Handle HTTP requests in controllers, create services and respond with JSON objects.
