@@ -19,7 +19,7 @@ return all the available seats in the cinema room.
 
 request body 
 
-```
+```JSON
 {
     "row": 3,
     "column": 4
@@ -28,7 +28,7 @@ request body
 
 A correct request body would get a token and seat info:
 
-```
+```JSON
 {
     "token": "00ae15f2-1ab6-4a02-a01f-07810b42c0ee",
     "ticket": {
@@ -45,7 +45,7 @@ A correct request body would get a token and seat info:
 
 In the request body, include the token to return the ticket
 
-```
+```JSON
 {
     "token": "e739267a-7031-4eed-a49c-65d8ac11f556"
 }
@@ -53,7 +53,7 @@ In the request body, include the token to return the ticket
 
 The response body would be:
 
-```
+```JSON
 {
     "returned_ticket": {
         "row": 1,
@@ -67,7 +67,7 @@ The response body would be:
 
 used by the manager of the cinema room, if the URL parameters contain a correct password key, it will return the statistics of the cinema room in the following format:
 
-```
+```JSON
 {
     "current_income": 0,
     "number_of_available_seats": 81,
